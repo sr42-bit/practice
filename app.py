@@ -14,7 +14,6 @@ def lambda_handler(event, context):
         'body': f'Result is {result}'
     }
 
-
 def lambda_handler(event, context):
     return {
         'statusCode': 200,
