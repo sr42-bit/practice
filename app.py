@@ -13,10 +13,3 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': f'Result is {result}'
     }
-
-
-def lambda_handler(event, context):
-    return {
-        'statusCode': 200,
-        'body': 'Hello from Serverless!'
-    }
